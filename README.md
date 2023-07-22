@@ -23,4 +23,4 @@ Used C to implement thread-safe malloc library.
   void ts_free_nolock(void *ptr);
   ```
 ### 2. Note: 
-- Both Step 1 and Step 2 have `Report.pdf`, whcih includes code logic and results & analysis of performance experiments.
+- Both Step 1 and Step 2 have `Report.pdf`, whcih include code logic and results & analysis of performance experiments.
