@@ -12,7 +12,7 @@ Used C to implement thread-safe malloc library.
   void *bf_malloc(size_t size);
   void bf_free(void *ptr);
   ```
-- Step 2: Made it thread-safe, with a locked version (pthread mutex) and a lock-free version (Thread Local Storage).
+- Step 2: Made it thread-safe, with a locked version (pthread mutex) and a non-locking version (Thread Local Storage).
   ```C
   //Thread Safe malloc/free: locking version
   void *ts_malloc_lock(size_t size);
